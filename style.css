@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Tahoma, sans-serif;
+    cursor: default;
+}
+
+aside {
+    margin: auto 5%;
+    background-color: #e0e0e0;
+    width: 21%;
+    text-align: right;
+    padding:3%;
+    
+    padding-right: 1%;
+    color: #64723B;
+    border-right:2px solid #303030;
+   float: left;
+   letter-spacing: -1px;
+    height:250vh;
+}
+
+aside h2 {
+    padding-bottom: 10%;
+    letter-spacing: -2px;
+}
+
+.navigacija {
+    list-style-type: none;
+}
+
+nav {
+    list-style-type: none;
+    cursor: pointer;
+    display: block;
+    padding-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    color: #64723B;
+    padding: 2%;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f0f0f0;
+    transition:all 0.5s;
+}
+
+aside h4 {
+    padding-top: 8%;
+    text-align: center;
+    padding-right:10%;
+    letter-spacing: -2px;
+}
+
+aside p {
+    color: #303030;
+    text-align:justify;
+    padding-right:10%;
+    font-size: 0.8em;
+}
+
+h1 {
+    color: #64723B;
+    font-size: 4rem;
+    letter-spacing: -7px;
+    padding-top: 3%;
+    text-align: center;
+    width: 90%;
+}
+
+.text {
+    width: 90%;
+    text-align:justify;
+    padding-top:2%;
+}
+
+section img {
+    margin-top: 2%;
+    border:1px solid #d0d0d0;
+    width: 59%;
+}
+
+section p:nth-child(4) {
+    width: 59%;
+    text-align:justify;
+    margin-left:31%;
+    padding-top:2%;
+}
+
+section img:nth-child(5) {
+    width: 150px;
+    height: 150px;
+    border:1px solid #d0d0d0;
+    float: left;
+}
+
+section p:nth-child(6) {
+    padding-top: 2%;
+}
+
+.naslov {
+    padding-top: 4%;
+    padding-left: 31%;
+    color:#64723B ;
+    font-size: 3em;
+    letter-spacing: -4px;
+}
+
+section p:nth-child(8) {
+    padding-left: 31%;
+}
+
+.lista {
+    list-style-type: circle;
+    padding-left: 34%;
+    padding-top: 1%;
+}
+
+li {
+    padding-top: 2%;
+}
+
+footer {
+    margin-left: 5%;
+    background-color: #007888;
+    height:6em;
+    position: absolute;
+    width: 100%;
+  margin-top: 2%;
+  text-align: center;
+  line-height: 6em;
+  color:#303030;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+
+
+
